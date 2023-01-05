@@ -1789,7 +1789,7 @@ GeneralSettings.CreateButton2({
 		local vapeprivate = shared.VapePrivate
 		local id = (shared.CustomSaveVape or game.PlaceId)
 		GuiLibrary["SelfDestruct"]()
-		delfile(customdir.."Profiles/"..(GuiLibrary["CurrentProfile"] == "default" and "" or GuiLibrary["CurrentProfile"])..id..".vapeprofile.txt")
+		delfile(customdir.."Profiles/"..(GuiLibrary["CurrentProfile"] == "default" and "" or GuiLibrary["CurrentProfile"])..id..".BxBprofile.txt")
 		shared.VapeSwitchServers = true
 		shared.VapeOpenGui = true
 		shared.VapePrivate = vapeprivate
